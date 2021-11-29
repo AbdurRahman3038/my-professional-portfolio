@@ -2,6 +2,7 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import './TopBanner.css';
 import img from '../../../media/images/big.png';
+import resume from '../../../media/files/Abdur Rahman_SCIC_Updated.pdf';
 
 const TopBanner = () => {
 
@@ -17,7 +18,7 @@ const TopBanner = () => {
                 <p className="text-desc">
                     Web designer and developer working for envato.com in Paris, France.
                 </p>
-                <Button className="download-btn">Download Resume</Button>
+                <Button href={resume} target="_blank" className="download-btn" download>Download Resume</Button>
             </div>
             <div className="feature-img">
                 <img className="feature-image" src={img} alt="" />
