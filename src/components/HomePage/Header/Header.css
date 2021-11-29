@@ -1,0 +1,27 @@
+.header-conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECF0F3;
+    padding: 20px 130px;
+    /* margin: 20px 130px; */
+}
+.header-img{
+    width: 60px;
+    
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav{
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    font-weight: 600;
+}
