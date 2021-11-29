@@ -1,6 +1,15 @@
+
+.contact-me-title{
+    padding: 20px 0px;
+    margin: 0;
+    background-color: #ECF0F3;
+    text-align: center;
+    
+}
 .contact-me-container{
     background-color: #ECF0F3;
-    padding: 0 210px;
+    padding: 50px 210px;
+    
 }
 .send-message{
     display: flex;

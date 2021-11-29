@@ -18,10 +18,11 @@ const ContactMe = () => {
     }
     return (
 
-        <div>
+        <div className="contact">
+            <h1 className="contact-me-title">Contact Me</h1>
             <div className="contact-me-container">
                 <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
+                    <div className="row  mx-auto">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name" />
                         </div>

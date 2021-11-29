@@ -14,9 +14,10 @@
 .navbar-container{
     display: flex;
     flex-direction: row;
-    margin-right: 80px;
-    justify-content: space-evenly;
+    margin-left: 80px;
+    justify-content: center;
     align-items: center;
+    
     
 }
 .nav{
