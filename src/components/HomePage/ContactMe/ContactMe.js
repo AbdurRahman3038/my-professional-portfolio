@@ -24,19 +24,20 @@ const ContactMe = () => {
                 <form onSubmit={sendEmail}>
                     <div className="row  mx-auto">
                         <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Name" name="name" />
+                            <input type="text" className="form-control input-area" placeholder="Name" name="name" />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email" />
+                            <input type="email" className="form-control input-area" placeholder="Email Address" name="email" />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject" />
+                            <input type="text" className="form-control input-area" placeholder="Subject" name="subject" />
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                            <textarea className="form-control input-area" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
-                        <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info send-message" value="Send Message"></input>
+                        <div className="col-8 pt-3 submit-btn">
+                            <input type="submit" className="btn send-message" value="Send Message"></input>
+
                         </div>
                     </div>
                 </form>

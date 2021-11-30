@@ -4,16 +4,48 @@
     margin: 0;
     background-color: #ECF0F3;
     text-align: center;
-    
 }
+
 .contact-me-container{
     background-color: #ECF0F3;
     padding: 50px 210px;
     
 }
+
+.input-area{
+    background-color: #ECF0F3;
+    border: 1px solid #b2b4b6;
+    box-shadow: 1px 1px 7px #bdbaba;
+}
+
 .send-message{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #ff014f;
+    color: white;
+    font-weight: 500;
+    border: 2px solid #ECF0F3;
+}
+
+.send-message:hover{
+    background-color: #ffffff;
+    color: #ff014f;
+    font-weight: 500;
+    border: 2px solid #ff014f;
+}
+
+.submit-btn{
+    margin-left: 380px;
+}
+
+
+@media only screen and (max-width:688px){
+
+    .contact-me-container{
+        background-color: #ECF0F3;
+        padding: 50px 10px;
+        
+    }
+    .submit-btn{
+        margin-left: 110px;
+    }
+
 }
