@@ -3,6 +3,7 @@
     margin: 0;
     padding: 10px 0;
 }
+
 .oculus-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -13,6 +14,7 @@
     background-color: #ECF0F3;
     
 }
+
 .project-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,12 +23,14 @@
     align-items: center;
    
 }
+
 .project-images img{
     width: 300px;
     max-height: 150px;
     border: 2px solid rgb(143, 139, 139);
 
 }
+
 .project-description{
     text-align: justify;
 }
@@ -40,7 +44,46 @@
     padding-bottom: 70px;
     padding-left: 300px;
     padding-right: 300px;
-    /* margin: 0px 500px; */
+    margin: 0;
     background-color: #ECF0F3;
     
+}
+
+@media only screen and (max-width:688px){
+
+    .oculus-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #ECF0F3;
+        
+    }
+    .project-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .project-details-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #ECF0F3;
+        
+    }
+    .project-details-buttons a{
+        margin: 5px 0;
+    }
+
 }

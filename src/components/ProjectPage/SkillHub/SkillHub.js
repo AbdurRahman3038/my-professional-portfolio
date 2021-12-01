@@ -33,7 +33,7 @@ const SkillHub = () => {
 
             </div>
             <div className="project-details-buttons">
-                <a href="https://skillhub-online-courses.netlify.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
+                <a href="https://skillhub-online-courses.netlify.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn mb-3">Live Site</Button></a>
                 <a href="https://github.com/AbdurRahman3038/skillhub-online-courses" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
 
             </div>

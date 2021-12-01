@@ -32,8 +32,9 @@ const OculusProject = () => {
 
             </div>
             <div className="project-details-buttons">
-                <a href="https://glassware-store.web.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
-                <Button className="top-project-btn">Github</Button>
+                <a href="https://glassware-store.web.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn ">Live Site</Button></a>
+                <a href="https://github.com/AbdurRahman3038/oculus-glassware-online-store-client" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+
             </div>
         </div>
     );

@@ -1,0 +1,16 @@
+.blog-container{
+    background-color: #ECF0F3;
+}
+.blog-container img{
+    width: 500px;
+    padding: 50px 10px;
+    margin-left: 430px;
+}
+
+@media only screen and (max-width:688px){
+    .blog-container img{
+        width: 300px;
+        padding: 20px 10px;
+        margin-left: 30px;
+    }
+}
