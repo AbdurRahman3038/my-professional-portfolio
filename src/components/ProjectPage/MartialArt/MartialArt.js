@@ -29,14 +29,16 @@ const MartialArt = () => {
                         <li>Training details is added</li>
                         <li>Overall user experience of Martial Art Website</li>
                     </ul>
+
+                    <div className="project-details-buttons">
+                        <a href="https://martial-art-training.netlify.app/training" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
+                        <a href="https://github.com/AbdurRahman3038/martial-art-training-centre" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+
+                    </div>
                 </div>
 
             </div>
-            <div className="project-details-buttons">
-                <a href="https://martial-art-training.netlify.app/training" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
-                <a href="https://github.com/AbdurRahman3038/martial-art-training-centre" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
 
-            </div>
         </div>
     );
 };

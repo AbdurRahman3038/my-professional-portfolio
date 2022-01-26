@@ -29,14 +29,16 @@ const SkillHub = () => {
                         <li>Name of added course counted</li>
                         <li>Total price caltulated</li>
                     </ul>
+
+                    <div className="project-details-buttons">
+                        <a href="https://skillhub-online-courses.netlify.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn mb-3">Live Site</Button></a>
+                        <a href="https://github.com/AbdurRahman3038/skillhub-online-courses" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+
+                    </div>
                 </div>
 
             </div>
-            <div className="project-details-buttons">
-                <a href="https://skillhub-online-courses.netlify.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn mb-3">Live Site</Button></a>
-                <a href="https://github.com/AbdurRahman3038/skillhub-online-courses" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
 
-            </div>
         </div>
     );
 };

@@ -28,12 +28,12 @@ const OculusProject = () => {
                         <li>Admin can add new glassware</li>
                         <li>Admin can manage orders and glassware</li>
                     </ul>
-                </div>
+                    <div className="project-details-buttons">
+                        <a href="https://glassware-store.web.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn ">Live Site</Button></a>
 
-            </div>
-            <div className="project-details-buttons">
-                <a href="https://glassware-store.web.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn ">Live Site</Button></a>
-                <a href="https://github.com/AbdurRahman3038/oculus-glassware-online-store-client" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+                        <a href="https://github.com/AbdurRahman3038/oculus-glassware-online-store-client" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+                    </div>
+                </div>
 
             </div>
         </div>

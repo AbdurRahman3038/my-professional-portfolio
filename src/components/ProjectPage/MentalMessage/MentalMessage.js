@@ -29,14 +29,16 @@ const MentalMessage = () => {
                         <li>User Registration/Login</li>
                         <li>Google Login</li>
                     </ul>
+
+                    <div className="project-details-buttons">
+                        <a href="https://mental-message.netlify.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
+                        <a href="https://github.com/AbdurRahman3038/mental-message" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+
+                    </div>
                 </div>
 
             </div>
-            <div className="project-details-buttons">
-                <a href="https://mental-message.netlify.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
-                <a href="https://github.com/AbdurRahman3038/mental-message" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
 
-            </div>
         </div>
     );
 };

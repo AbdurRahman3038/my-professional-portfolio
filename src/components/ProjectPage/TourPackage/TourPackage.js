@@ -29,14 +29,16 @@ const TourPackage = () => {
                         <li>Admin can manage bookings and tour packages</li>
                         <li>User can delete package</li>
                     </ul>
+
+                    <div className="project-details-buttons">
+                        <a href="https://tour-package-12fcb.web.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
+                        <a href="https://github.com/AbdurRahman3038/tour-package" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
+
+                    </div>
                 </div>
 
             </div>
-            <div className="project-details-buttons">
-                <a href="https://tour-package-12fcb.web.app/" rel="noreferrer" target="_blank"><Button className="top-project-btn">Live Site</Button></a>
-                <a href="https://github.com/AbdurRahman3038/tour-package" rel="noreferrer" target="_blank"><Button className="top-project-btn">Github</Button></a>
 
-            </div>
         </div>
     );
 };

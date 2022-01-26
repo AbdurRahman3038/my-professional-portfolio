@@ -6,9 +6,23 @@
     text-align: center;
 }
 
-.contact-me-container{
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
     background-color: #ECF0F3;
-    padding: 50px 210px;
+}
+
+
+
+.social-media a{
+    text-decoration: none;
+    
+}
+
+.form-container{
+    background-color: #ECF0F3;
+    padding: 0px;
     
 }
 
@@ -33,13 +47,14 @@
 }
 
 .submit-btn{
-    margin-left: 380px;
+    margin-left: 110px;
+    
 }
 
 
 @media only screen and (max-width:688px){
 
-    .contact-me-container{
+    .form-container{
         background-color: #ECF0F3;
         padding: 50px 10px;
         
